@@ -1,0 +1,47 @@
+.icon-left {
+  position: absolute;
+  top: 2rem;
+  left: 5rem;
+}
+
+.icon-right {
+  position: absolute;
+  bottom: 2rem;
+  right: 5rem;
+}
+
+.season-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #000;
+}
+.season-display.winter i,
+.season-display.winter h1 {
+  color: rgb(247, 247, 255);
+}
+
+.season-display.summer i,
+.season-display.summer h1 {
+  color: rgb(233, 225, 119);
+}
+
+.winter {
+  background: rgb(179, 179, 210);
+  background: radial-gradient(
+    circle,
+    rgba(179, 179, 210, 1) 21%,
+    rgba(200, 203, 224, 1) 100%,
+    rgba(223, 223, 231, 1) 100%
+  );
+}
+.summer {
+  background: rgb(134, 179, 210);
+  background: radial-gradient(
+    circle,
+    rgba(134, 179, 210, 1) 0%,
+    rgba(153, 192, 215, 1) 20%,
+    rgba(212, 232, 232, 1) 100%
+  );
+}
